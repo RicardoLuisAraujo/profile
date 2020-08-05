@@ -1,0 +1,146 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+body {
+  background-color: #f4f4f4;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  box-sizing: border-box;
+  display: flex
+}
+
+h1, h2, h3 {
+  color: #2AB7CA;
+  font-family: 'Raleway', sans-serif;
+  font-size: 45px;
+  /*line-height: 5px;*/
+}
+
+.card-first p {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 17px;
+    text-align: center;
+    display: flex;
+}
+
+.card-first h1 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: #2AB7CA;
+    font-family: 'Raleway', sans-serif;
+    font-size: 45px;
+}
+
+.card-second h2 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: #2AB7CA;
+    font-family: 'Raleway', sans-serif;
+    font-size: 45px;
+}
+
+link {
+  color: #fed766;
+  text-decoration: none;
+}
+
+.img_circle {
+  margin-top: 15px;
+  border-radius: 50%;
+  width= 150px;
+  height = 150px;
+}
+
+.btn-blue {
+  background-color: rgb(217,93, 80, 0.7);
+  color: rgb(230, 230, 230);
+  padding: 20px 25px;
+  border-radius: 21px;
+  margin-bottom: 15px;
+}
+
+.btn-blue:hover {
+  background-color: rgb(217,93, 89, 1);
+  color: white;
+}
+
+.container {
+  width: 450px;
+  margin: 10px auto;
+}
+
+.card-first {
+  background-color: white;
+  padding-top: 10px;
+  padding: 50px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 10px 0px;
+  text-align: center;
+}
+
+.container .card-second {
+  background-color: white;
+  padding: 15px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 0px 0px;
+  text-align: center;
+}
+
+.list-inline {
+  padding-left: 0px;
+  font-size: 25px;
+  color: rgb(230, 230, 230);
+}
+
+.list-inline li {
+    display: inline;
+    padding: 10px;
+    color: rgb(230, 230, 230);
+    font-family: "Font Awesome 5 Brands";
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 500px;
+    height: auto;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    height: auto;
+
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    height: auto;
+  }
+}
+
+#social-links {
+  font-size: 20px;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+a i:hover {
+  font-size: 50px;
+  color: rgb(90, 90, 90, 1);
+}
+
+a i {
+  font-size: 50px;
+  color: rgb(230, 230, 230, 0.5);
+}
